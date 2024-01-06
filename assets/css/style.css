@@ -32,9 +32,9 @@
 
 nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  margin: 0 200px;
+  margin: 0 150px;
 }
 .nav-title {
   color: #181818;
@@ -65,7 +65,7 @@ nav a {
   padding: 30px 30px 0px 150px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .banner-content {
   max-width: 500px;
@@ -99,6 +99,7 @@ nav a {
   font-size: 20px;
   font-weight: 700;
 }
+
 /* main section style */
 main {
   max-width: 1140px;
@@ -107,7 +108,9 @@ main {
 main section {
   margin-top: 130px;
 }
+
 /* about section style */
+
 .about {
   padding: 130px;
   border-radius: 10px;
